@@ -2,10 +2,10 @@ import Head from 'next/head'
 import styles from '../../styles/Home.module.css'
 
 type Props = {
-  title: string,
+  title: string
 }
 
-export default function Home({ title = "Next na prática" }: Props) {
+export default function Home({ title = 'Next na prática' }: Props) {
   return (
     <div className={styles.container}>
       <Head>
